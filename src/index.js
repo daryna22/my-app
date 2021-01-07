@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// parts
+import { element as Hello } from './components/Hello';
+import { element as Text } from './components/Text';
 
-const element = <h1><p>Hello, world</p></h1>;
 ReactDOM.render(
-  element,
-  document.getElementById('hello')
+    <div>
+        { Text }
+        { Hello}
+    </div>,
+  document.getElementById('test')
 );
 
 
