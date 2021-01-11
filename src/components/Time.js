@@ -1,6 +1,11 @@
 import React from 'react';
 
 export function Time() {
-    return <div>Hello World!</div>
+    const clock = new Date().toLocaleTimeString();
+
+    return <header>
+        <h1>Hello World!</h1>
+        <span> { clock } </span>
+    </header>
 
 }
