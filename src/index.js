@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // parts
-import { element as Hello } from './components/Hello';
-import { element as Text } from './components/Text';
+import { Time } from '../src/components/Time';
 
 ReactDOM.render(
-    <div>
-        { Text }
-        { Hello}
-    </div>,
+    <Time />,
   document.getElementById('test')
 );
 
