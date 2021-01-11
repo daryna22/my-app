@@ -8,9 +8,9 @@ export function Time() {
         last: 'Maksymenko'
     };
     const element = formatName(data);
-    return <header>
+    return (
+        <header>
         <h1> { element }</h1>
         <span> { clock } </span>
-    </header>
-
+        </header> )
 }
