@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // parts
-import { Time } from '../src/components/Time';
+import { App } from './container/App';
 
-setInterval(
-    () => {
+
         ReactDOM.render(
-            <Time />,
+            <App />,
             document.getElementById('test')
-        );
-    }, 1000)
+)
+
 
 
 
